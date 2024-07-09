@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "b017216f-2f4a-405d-acc6-d6be8720f4e7",
+		"name": "EventManagementPlatform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31537995",
+		"_collection_link": "https://eventmanagement-4250.postman.co/workspace/eventManagement-Workspace~3e0d39c1-14be-4ea1-a4bb-01ec851b3822/collection/31537995-b017216f-2f4a-405d-acc6-d6be8720f4e7?action=share&source=collection_link&creator=31537995"
+	},
+	"item": [
+		{
+			"name": "addAEvent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/events",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllEvents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/events",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAnotherEvent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/events",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEventById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/events/72adcac1-fff0-4e97-90cb-211a1b85c1be",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"events",
+						"72adcac1-fff0-4e97-90cb-211a1b85c1be"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateEvent",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/events/30fa7606-0187-4e27-b214-4cdb156b2886",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"events",
+						"30fa7606-0187-4e27-b214-4cdb156b2886"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteEvent",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/events/4f043cef-deba-4085-b4a4-de92260ced7b",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"events",
+						"4f043cef-deba-4085-b4a4-de92260ced7b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
